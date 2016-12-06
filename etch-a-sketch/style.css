@@ -1,0 +1,70 @@
+/* Header */
+#header {
+	background:#f2f2f2;
+	border-bottom:1px solid #e4e4e4;
+	line-height:40px;
+	min-width:100%;
+	top:0;
+	position:absolute;
+	display: block;
+	z-index: 1;
+}
+
+#title {
+	display: block;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+/* ----------------------------- */
+
+#content {
+	display: inline-block;
+	margin: 75px 40px;
+}
+
+/*Table*/
+
+#table {
+	height: 640px;
+	width: 640px;
+	float: left;
+	display: inline-block;
+	position: absolute;
+}
+
+.cell {
+	background-color: black;
+	border-color: grey;
+	border-width: thin;
+	box-sizing: border-box;
+	border-style: solid;
+	float: left;
+	display: inline-block;
+	opacity: 100%;
+}
+
+/*Buttons on Right*/
+
+#colorOpt {
+	float: right;
+	margin-left: 675px;
+	margin-top: 185px;
+	display: inline-block;
+	position: absolute;
+}
+
+.controls {
+	white-space: nowrap;
+	color: white;
+	background-color: black;
+	display: block;
+	padding: 5px;
+	margin: 6px 0 0 0;
+	font-size: 27px;
+	cursor: pointer;
+	border-color: black;
+	text-align: left;
+}
