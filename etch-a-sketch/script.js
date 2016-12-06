@@ -67,5 +67,7 @@ $(document).ready(function(){
 	updateSize();
 
 	activeEffect = hoverEffects.orange;
+	$("#controls_1").css("background-color", "white");
+	$("#controls_1").css("color", "black");
 
 })
